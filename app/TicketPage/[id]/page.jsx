@@ -23,7 +23,7 @@ const TicketPage = async ({ params }) => {
       _id: "new"
     }
   }
-  
+  console.log(EDITMODE, updateTicketData)
   return (
     <TicketForm ticket={updateTicketData} />
   )
